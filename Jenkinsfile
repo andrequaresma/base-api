@@ -1,12 +1,12 @@
 pipeline {
     agent any // Pode rodar em qualquer agente disponível
 
-    tools {
-        // Se você quiser usar um Maven ou JDK específico instalado no agente,
-        // pode configurá-los em "Manage Jenkins" -> "Tools"
-        // maven 'M3' // Substitua 'M3' pelo nome da sua instalação Maven no Jenkins
-        // jdk 'JDK_17' // Substitua 'JDK_17' pelo nome da sua instalação JDK no Jenkins
-    }
+//     tools {
+//         // Se você quiser usar um Maven ou JDK específico instalado no agente,
+//         // pode configurá-los em "Manage Jenkins" -> "Tools"
+//         // maven 'M3' // Substitua 'M3' pelo nome da sua instalação Maven no Jenkins
+//         // jdk 'JDK_17' // Substitua 'JDK_17' pelo nome da sua instalação JDK no Jenkins
+//     }
 
     stages {
         stage('Checkout') {
